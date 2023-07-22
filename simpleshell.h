@@ -6,5 +6,6 @@
 void display_prompt(void);
 void execute_command(const char *command);
 int main(void);
+void handle_command(const char *command, char *args[]);
 
 #endif
