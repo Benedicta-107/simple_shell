@@ -14,7 +14,7 @@
 
 void display_prompt(void)
 {
-	printf(" ");
+	printf("shell# ");
 	fflush(stdout);
 }
 
